@@ -69,33 +69,6 @@ void flipHorz(rgb** image, int width, int height) {
 	}
 }
 
-//Function Name: grayScale 
-//Description: This function gets all the RGB values pulled from file 
-//  and converts into a image composed of gray color values.
-//Parmas: 
-//  rgb** image - 2D array holding rgb values
-//  int width - width of image 
-//  int height - height of image
-//Returns: void 
-
-void grayScale(rgb** image, int width, int height) {
-	int r, g, b, gray;
-	for (int i = 0; i<height; i++) {
-		for (int j = 0; j<width; j++) {
-			r = image[i][j].r;
-			g = image[i][j].g;
-			b = image[i][j].b;
-
-			gray = (r + g + b) / 3;
-
-			image[i][j].r = gray;
-			image[i][j].g = gray;
-			image[i][j].b = gray;
-		}
-	}
-}
-
-
 int main() {
 	ifstream ifile;          //Input / output files
 	ofstream ofile;
