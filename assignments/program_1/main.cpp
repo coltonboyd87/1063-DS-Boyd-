@@ -99,8 +99,8 @@ void grayScale(rgb** image, int width, int height) {
 int main() {
 	ifstream ifile;          //Input / output files
 	ofstream ofile;
-	ifile.open("bot.txt");
-	ofile.open("bot2.txt");
+	ifile.open("smiley.txt");
+	ofile.open("smiley2.txt");
 	int r, g, b, gray;
 
 	int width;               //width of image
