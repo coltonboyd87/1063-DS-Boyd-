@@ -102,7 +102,7 @@ int main() {
 
 	flipVert(imgArray, width, height);
 	flipHorz(imgArray, width, height); 
-	grayScale(imgArray, width, height); 
+	
 
 //Write out our color data to a new file
 	ofile << width << " " << height << endl;
