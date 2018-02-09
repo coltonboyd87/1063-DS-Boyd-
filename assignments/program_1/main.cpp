@@ -101,7 +101,7 @@ int main() {
 	}
 
 	flipVert(imgArray, width, height);
-	flipHorz(imgArray, width, height); 
+	flipHorz(imgArray, width, height); //Function Calls 
 	
 
 //Write out our color data to a new file
