@@ -1,0 +1,43 @@
+//Colton Boyd 
+//HW - toUpper function 
+//3/24/18
+//Data Structures - Griffin 
+#include <iostream> 
+#include <string>
+#include <fstream> 
+using namespace std; 
+
+
+string tolower(string w) {
+	for (int i = 0; i<w.length(); i++) {
+
+		if ((int)w[i] >= 65 && (int)w[i] <= 90) {
+			w[i] = w[i] + 32;
+		}
+	}
+	return w;
+}
+
+string toUpper(string x)
+{
+	for(int i = 0; i<x.length(); i++)
+
+		if ((int)x[i] >= 97 && (int)x[i] <= 122)
+		{
+			x[i] = x[i] - 32;
+		}
+
+	return x;
+}
+
+int main()
+{
+	string w = "A";
+	cout << w << endl; 
+	cout << tolower(w) << endl; 
+	string x = "b";
+	cout << x << endl;
+	cout << toUpper(x) << endl; 
+	system("pause"); 
+	return 0; 
+}
