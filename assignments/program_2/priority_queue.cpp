@@ -10,10 +10,10 @@
 //the priority. The program will print out all popped off animals off of     //
 //queue. And then after that will print out all the names remaining in the   //
 //queue in alphabetical order.                                               //
-//               
-//Files: input_data.txt, priority_queue.txt
-//Email: coltonboyd14@yahoo.com 
-//Semester: Spring 2018 
+//               							     //
+//Files: input_data.txt, priority_queue.txt				     //
+//Email: coltonboyd14@yahoo.com 					     //
+//Semester: Spring 2018 						     //
 //Course Name: 1063 Data Structures                                          //
 //                                                                           //
 //Date: April 2nd 2018                                                       // 
