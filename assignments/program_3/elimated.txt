@@ -1,0 +1,39 @@
+//////////////////////////////////////////////////////////////////////////
+//ProgramName: Program # 3
+//Author: Colton Boyd 
+//Description: 
+//This program reads in animal names into a doubly-linked
+//list, then prompts the user to enter a number that will
+//serve as random. It will then prompt the user
+//to enter a number that will be as the multiplier. If
+//number is even, the pointer moves to the right and vice
+//versa. Animals are then removed based on the random number
+//until one animal is left. This animal is then declared the survivor.
+//Semester: Spring 2018
+//Course: 1063 Data Structures
+//Date: 27 04 2018
+//////////////////////////////////////////////////////////////////////////////
+
+The chosen multiplier: 1
+First: - ant
+- caribou
+- swallow
+- seahorse
+- skunk
+- toad
+- chamois
+- red-deer
+- pony
+- pigeon
+- newt
+- lion
+- donkey
+- mallard
+- hippopotamus
+- lemur
+- caterpillar
+- ibex
+- salamander
+- gnu
+- mule
+WINNER: dinosaur!!
