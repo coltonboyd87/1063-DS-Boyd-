@@ -209,7 +209,7 @@ Animals Popped off the Queue:
 207 capybara
 208 elephant
 
-Animals Remaining on the Queue (In Order of priority):
+Animals Remaining on the Queue (in order of priority):
 
 1 flamingo
 2 hedgehog
@@ -238,3 +238,4 @@ Animals Remaining on the Queue (In Order of priority):
 25 nightingale
 26 prairie-dog
 27 komodo-dragon
+
